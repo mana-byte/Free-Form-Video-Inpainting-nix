@@ -152,7 +152,7 @@ if __name__ == '__main__':
     elif args.resume:
         # load config file from checkpoint, in case new config file is not given.
         # Use '--config' and '--resume' arguments together to load trained model and train more with changed config.
-        config = torch.load(args.resume)['config']
+        config = torch.load(args.resume, weights_only=False)['config']
     else:
         raise AssertionError("Configuration file need to be specified. Add '-c config.json', for example.")
 
