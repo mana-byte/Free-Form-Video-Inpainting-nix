@@ -30,12 +30,12 @@ This repository contains source code for both works. Some pretrained weights for
 ![compare](doc/fig_compare.png)
 ## Environment Setup
 ```
-git clone git@github.com:amjltc295/Free-Form-Video-Inpainting.git
+git clone git@github.com:mana-byte/Free-Form-Video-Inpainting-nix.git
 cd Free-Form-Video-Inpainting
-git submodule update --init --recursive
-conda env create -f environment.yaml
-source activate free_form_video_inpainting
+nix develop
 ```
+
+ BE AWARE : The nix flake can take minutes to hours to build, depending on your machine.
 
 ## Training
 Please see [training](doc/training.md)
