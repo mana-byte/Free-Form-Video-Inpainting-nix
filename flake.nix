@@ -72,6 +72,9 @@
           name = "free_form_video_inpainting";
 
           buildInputs = with pkgs; [
+            python312Packages.python-lsp-server
+            black
+
             pythonEnv
             dlib
             libGL
