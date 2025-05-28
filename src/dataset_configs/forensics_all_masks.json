@@ -16,7 +16,7 @@
                 "mask_type": "from_start",
                 "do_augment": true
             },
-            "batch_size": 2,
+            "batch_size": 1,
             "shuffle": true,
             "validation_split": 0.0,
             "num_workers": 4
