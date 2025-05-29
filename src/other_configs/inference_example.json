@@ -22,9 +22,9 @@
                 "root_outputs_dir": "../VOS_resized2",
                 "dataset_args": {
                     "type": "video",
-                    "w": 320,
-                    "h": 180,
-                    "sample_length": 15,
+                    "w": 520,
+                    "h": 260,
+                    "sample_length": 1,
                     "random_sample": false,
                     "random_sample_mask": false,
                     "mask_type": "random",
